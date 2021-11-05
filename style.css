@@ -162,3 +162,54 @@ h5 {
 #remove {
     padding: 0;
 }
+
+
+.searchInput {
+    display: flex;
+    background-color: #eff2f5;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+.searchInput input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+}
+
+.trendingList {
+    background-color: #eff2f5;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.trendHeading {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.trendHeading i {
+    font-size: x-large;
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.trendHeading h4 {
+    margin: 0;
+}
+
+.trendingItems {
+    border-top: 1px solid rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.trendingItems h6 {
+    color: #1DA1F2;
+}
