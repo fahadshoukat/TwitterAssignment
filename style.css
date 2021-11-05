@@ -43,3 +43,21 @@ h5 {
     color: white;
     font-weight: 600;
 }
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.user-avatar {
+    font-size: 50px;
+    display: grid;
+}
+
+.user-info .arrow-down {
+    font-size: small;
+    display: grid;
+    align-self: center;
+}
