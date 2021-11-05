@@ -61,3 +61,104 @@ h5 {
     display: grid;
     align-self: center;
 }
+
+.newsFeedHeading {
+    border-bottom: 1px solid #eff2f5;
+}
+
+.newsFeedHeading h3 {
+    margin-left: 20px;
+}
+
+.newsFeedTop {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.newsFeedTop form {
+    flex: 1;
+    display: flex;
+}
+
+.newsFeedTop form input {
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+}
+
+.newsFeedBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 10px solid rgb(204, 204, 204);
+}
+
+.newsFeedBottom .icons i {
+    padding: 5px;
+    color: #1DA1F2;
+    font-size: large;
+}
+
+.newsFeedBottom .icons {
+    margin-left: 60px;
+}
+
+.postTop {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+
+.postBottom {
+    margin-left: 70px;
+    position: relative;
+    top: -30px;
+}
+
+.postBottom p {
+    display: inline;
+}
+
+.postOptions {
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    cursor: pointer;
+}
+
+.postOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 10px;
+}
+
+.postOption p {
+    margin-bottom: 0;
+}
+
+.postBottom p {
+    margin-bottom: 0;
+}
+
+.postBottom img {
+    border-radius: 20px;
+}
+
+.bgColor {
+    background-color: #eff2f5;
+}
+
+.hashtags {
+    color: #1DA1F2
+}
+
+#remove {
+    padding: 0;
+}
