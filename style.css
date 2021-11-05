@@ -1,0 +1,45 @@
+h5 {
+    margin: 0;
+}
+
+.sideBarOption i {
+    font-size: x-large;
+}
+
+.sideBarOption h5 {
+    margin-left: 29px;
+}
+
+.twitter-avatar {
+    font-size: 50px;
+    color: #1DA1F2;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.sideBarOption {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.active {
+    color: #1DA1F2;
+}
+
+.sideBarOption:hover {
+    color: #1DA1F2;
+}
+
+.sideBar .container {
+    display: grid;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #1DA1F2;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
